@@ -1,0 +1,18 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--magenta);
+  padding: 1.3em 10em;
+  align-items: center;
+}
+
+header>img {
+  height: 1.5em;
+  padding-right: 2em;
+}
+
+header>p {
+  color: var(--white);
+  font-size: .9em;
+  letter-spacing: .05em;
+}
