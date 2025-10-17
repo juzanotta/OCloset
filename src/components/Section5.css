@@ -1,0 +1,55 @@
+.section5 {
+    padding: 4em 10em 2em;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title>h1 {
+    color: var(--magenta);
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.title>h2 {
+    text-align: end;
+    color: var(--magenta);
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+.container5 {
+    display: flex;
+    justify-content: center;
+    padding-top: 7em;
+}
+
+.container5>h1 {
+    text-align: end;
+    color: var(--magenta);
+    font-size: 1.65em;
+    font-weight: 600;
+    padding-right: 1em;
+    width: 13em;
+}
+
+.container5>p {
+    color: var(--black);
+    font-size: 1.15em;
+    line-height: 1.2em;
+    width: em;
+}
+
+.end {}
+
+.end>img {}
+
+.zap {}
+
+.zap>h2 {}
+
+.zap>img {}
+
+.zap>p {}
