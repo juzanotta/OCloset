@@ -1,0 +1,39 @@
+.section4 {
+    padding: 4em 10em 2em 10em;
+    background-color: var(--magenta);
+}
+
+.section4>h1 {
+    color: var(--white);
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.container4 {
+    display: flex;
+    padding: 5em 4em;
+    justify-content: space-between;
+}
+
+.box {
+    text-align: center;
+    width: 18em;
+}
+
+.box>img {
+    width: 15.8em;
+}
+
+.box>h2 {
+    color: var(--white);
+    font-size: 1.3em;
+    font-weight: 600;
+    padding: .5em;
+}
+
+.box>p {
+    color: var(--white);
+    font-size: 1em;
+    line-height: 1.5em;
+    font-weight: 300;
+}

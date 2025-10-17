@@ -9,7 +9,7 @@
     padding-bottom: 2em;
 }
 
-.container {
+.container3 {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -36,11 +36,11 @@
     line-height: 1.3em;
 }
 
-.container>img {
+.container3>img {
     height: 30em;
 }
 
-.container_dif {
+.container3_dif {
     display: flex;
     align-items: center;
     padding: 3em 8.5em;
@@ -67,6 +67,6 @@
     line-height: 1.3em;
 }
 
-.container_dif>img {
+.container3_dif>img {
     height: 30em;
 }

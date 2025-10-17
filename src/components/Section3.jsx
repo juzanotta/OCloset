@@ -5,7 +5,7 @@ export default function Section3() {
         <section class="section3">
             <h1>um app pensado para você</h1>
 
-            <div class="container">
+            <div class="container3">
                 <div class="texto">
                     <h2>explore um closet infinito</h2>
                     <p>navegue por um feed com novidades constantes e encontre exatamente o que você procura. <br />
@@ -14,7 +14,7 @@ export default function Section3() {
                 <img src="./s3m1.png" alt="" />
             </div>
 
-            <div class="container_dif">
+            <div class="container3_dif">
                 <img src="./s3m2.png" alt="" />
                 <div class="texto_dif">
                     <h2>todos os detalhes na sua mão</h2>
@@ -23,7 +23,7 @@ export default function Section3() {
                 </div>
             </div>
 
-            <div class="container">
+            <div class="container3">
                 <div class="texto">
                     <h2>anuncie suas peças em minutos</h2>
                     <p>tirar suas peças do armário e transformá-las em renda extra nunca foi tão fácil. <br />
