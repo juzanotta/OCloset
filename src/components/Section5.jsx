@@ -1,13 +1,14 @@
 import './Section5.css'
 
 export default function Section5() {
-    return(
+
+    return (
         <section class="section5">
 
             <div class="title">
                 <h1>pronta para fazer a moda circular?</h1>
                 <h2>save the date <br />
-                dez/2025</h2>
+                    dez/2025</h2>
             </div>
 
             <div class="container5">
@@ -19,10 +20,13 @@ export default function Section5() {
                 <img src="./s5m1.png" alt="" />
 
                 <div class="zap">
-                    <h2>ficou com alguma dúvida?<br />
-                    manda pra gente!</h2>
-                    <img src="./s5m2.png" alt="" />
-                    <p>clica aqui :)</p>
+                    <h2>ficou com <br /> alguma dúvida?<br />
+                        manda pra gente!</h2>
+                    <a href="https://wa.me/5553981311887" class="btn" >
+                        <img src="./s5m2.png" alt="" />
+                        <p>clica aqui :)</p>
+                    </a>
+                    
                 </div>
             </div>
         </section>

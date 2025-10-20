@@ -4,8 +4,8 @@
 
 .section3>h1 {
     color: var(--magenta);
-    font-size: 2em;
-    font-weight: 600;
+    font-size: 1.95em;
+    font-weight: 700;
     padding-bottom: 2em;
 }
 
@@ -18,22 +18,22 @@
 
 .texto {
     /* padding: 0em 2em; */
-    width: 30em;
+    width: 29em;
     padding-right: 2.5em;
 }
 
 .texto>h2 {
     color: var(--magenta);
     font-weight: 700;
-    font-size: 1.7em;
-    padding-bottom: .5em;
+    font-size: 1.6em;
+    padding-bottom: .1em;
 }
 
 .texto>p {
     color: var(--black);
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: 400;
-    line-height: 1.3em;
+    line-height: 1.37em;
 }
 
 .container3>img {
@@ -56,15 +56,15 @@
 .texto_dif>h2 {
     color: var(--magenta);
     font-weight: 700;
-    font-size: 1.7em;
-    padding-bottom: .5em;
+    font-size: 1.6em;
+    padding-bottom: .1em;
 }
 
 .texto_dif>p {
     color: var(--black);
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: 400;
-    line-height: 1.3em;
+    line-height: 1.37em;
 }
 
 .container3_dif>img {

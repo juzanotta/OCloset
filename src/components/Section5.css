@@ -1,5 +1,5 @@
 .section5 {
-    padding: 4em 10em 2em;
+    padding: 4em 10em 0em;
 }
 
 .title {
@@ -9,8 +9,8 @@
 
 .title>h1 {
     color: var(--magenta);
-    font-size: 2em;
-    font-weight: 600;
+    font-size: 1.95em;
+    font-weight: 700;
 }
 
 .title>h2 {
@@ -23,7 +23,7 @@
 .container5 {
     display: flex;
     justify-content: center;
-    padding-top: 7em;
+    padding: 8em 0em 6em;
 }
 
 .container5>h1 {
@@ -31,25 +31,57 @@
     color: var(--magenta);
     font-size: 1.65em;
     font-weight: 600;
-    padding-right: 1em;
-    width: 13em;
+    padding-right: .6em;
+    line-height: 1.1em;
+    width: 10.55em;
 }
 
 .container5>p {
     color: var(--black);
-    font-size: 1.15em;
-    line-height: 1.2em;
-    width: em;
+    font-size: 1.13em;
+    line-height: 1.35em;
+    width: 21.5em;
 }
 
-.end {}
+.end {
+    display: flex;
+    justify-content: space-between;
+}
 
-.end>img {}
+.end>img {
+    width: 11em;
+    padding-bottom: 2.5em;
+}
 
-.zap {}
+.zap {
+    display: flex;
+    align-items: center;
+}
 
-.zap>h2 {}
+.zap>h2 {
+    text-align: end;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 1.15em;
+    width: 8.5em;
+    padding-right: .5em;
+}
 
-.zap>img {}
+.btn{
+   display: flex;
+   align-items: center; 
+   text-decoration: none;
+}
 
-.zap>p {}
+.btn>img {
+    height: 4.7em;
+    cursor: pointer;
+    padding-bottom: .25em;
+}
+
+.btn>p {
+    cursor: pointer;
+    width: 3em;
+    color: var(--magenta);
+    font-size: .8em;
+}
