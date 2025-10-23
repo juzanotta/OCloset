@@ -3,31 +3,65 @@
   padding: 11.5em 10em;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+
+  @media (max-width: 600px) {
+    padding: 6.5em 1em 3em;
+    flex-direction: column;
+    text-align: center;
+  }
 }
+
+
 
 .section1>img {
   height: 16em;
+
+  @media (max-width: 600px) {
+    height: 9em;
+  }
 }
 
 .section1>div {
   padding-left: 1.5em;
+  width: 32em;
+
+  @media (max-width: 800px) {}
+
+  @media (max-width: 600px) {
+    padding: 2em 1.4em 0em;
+    width: 21em;
+  }
 }
 
 .section1>div>h1 {
   font-weight: 800;
   color: var(--magenta);
   font-size: 2.4em;
-  width: 13em;
   line-height: 1em;
   padding-bottom: .15em;
+
+  @media (max-width: 800px) {}
+
+  @media (max-width: 600px) {
+    font-size: 1.05em;
+    letter-spacing: .01em;
+  }
 }
 
 .section1>div>h3 {
-  width: 21em;
   color: var(--black);
   font-size: 1.15em;
   line-height: 1.2em;
   padding-bottom: 1em;
+
+  @media (max-width: 800px) {}
+
+  @media (max-width: 600px) {
+    line-height: 1.2em;
+    font-weight: 400;
+    font-size: .95em;
+  }
 }
 
 .section1>div>a {
@@ -39,6 +73,14 @@
   padding: .4em 1.6em;
   border-radius: 8em;
   margin-left: 5em;
+
+  @media (max-width: 800px) {
+    margin-left: 0;
+  }
+
+  @media (max-width: 600px) {
+    display: none;
+  }
 }
 
 .section1>div>a:hover {

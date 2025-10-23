@@ -1,5 +1,9 @@
 .section3 {
     padding: 4em 10em 5em;
+
+    @media (max-width: 600px) {
+        padding: 1.4em 1.5em;
+    }
 }
 
 .section3>h1 {
@@ -7,19 +11,53 @@
     font-size: 1.95em;
     font-weight: 700;
     padding-bottom: 2em;
+
+    @media (max-width: 600px) {
+        font-size: .9em;
+    }
 }
+
 
 .container3 {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
+    @media (max-width: 600px) {
+        flex-direction: column-reverse;
+        padding: 1em 0em;
+    }
 }
 
+.container3_dif {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    @media (max-width: 600px) {
+        flex-direction: column;
+    }
+}
+
+
 .texto {
-    /* padding: 0em 2em; */
     width: 29em;
     padding-right: 2.5em;
+    @media (max-width: 600px) {
+        text-align: center;
+        padding: 1.5em 0em 3em;
+        width: 19.5em;
+    }
+}
+
+.texto_dif {
+    width: 30em;
+    padding-left: 2.5em;
+    text-align: end;
+    @media (max-width: 600px) {
+        text-align: center;
+        padding: 1.5em 0em 3em;
+        width: 19.5em;
+    }
 }
 
 .texto>h2 {
@@ -27,30 +65,9 @@
     font-weight: 700;
     font-size: 1.6em;
     padding-bottom: .1em;
-}
-
-.texto>p {
-    color: var(--black);
-    font-size: 1.1em;
-    font-weight: 400;
-    line-height: 1.37em;
-}
-
-.container3>img {
-    height: 30em;
-}
-
-.container3_dif {
-    display: flex;
-    align-items: center;
-    padding: 3em 8.5em;
-    flex-wrap: wrap;
-}
-
-.texto_dif {
-    width: 30em;
-    padding-left: 2.5em;
-    text-align: end;
+    @media (max-width: 600px) {
+        font-size: 1.2em;
+    }
 }
 
 .texto_dif>h2 {
@@ -58,6 +75,20 @@
     font-weight: 700;
     font-size: 1.6em;
     padding-bottom: .1em;
+    @media (max-width: 600px) {
+        font-size: 1.2em;
+    }
+}
+
+.texto>p {
+    color: var(--black);
+    font-size: 1.1em;
+    font-weight: 400;
+    line-height: 1.37em;
+
+    @media (max-width: 600px) {
+        font-size: 1.05em;
+    }
 }
 
 .texto_dif>p {
@@ -65,8 +96,22 @@
     font-size: 1.1em;
     font-weight: 400;
     line-height: 1.37em;
+    @media (max-width: 600px) {
+        font-size: 1.05em;
+    }
 }
+
+.container3>img {
+    height: 30em;
+    @media (max-width: 600px) {
+     height: 25em;
+    }
+}
+
 
 .container3_dif>img {
     height: 30em;
+    @media (max-width: 600px) {
+     height: 25em;
+    }
 }
