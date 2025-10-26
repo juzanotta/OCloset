@@ -2,7 +2,7 @@ import './Section3.css'
 
 export default function Section3() {
     return (
-        <section class="section3">
+        <section class="section3" id='section3'>
             <h1>um app pensado para você</h1>
 
             <div class="container3">
