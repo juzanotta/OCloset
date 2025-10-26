@@ -2,7 +2,7 @@
     padding: 4em 10em 2em 10em;
     background-color: var(--magenta);
 
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
        padding: 1.4em 1.5em 0em;
     }
 }
@@ -12,7 +12,7 @@
     font-size: 1.95em;
     font-weight: 700;
 
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
         font-size: 1.2em;
     }
 }
@@ -23,7 +23,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
 
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
         flex-direction: column;
         padding: 2em .4em;
     }
@@ -36,7 +36,7 @@
     border-radius: 1em;
     margin-bottom: 2em;
 
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
         width: 17.5em;
         padding: 1.5em;
         border-radius: 1em;
@@ -50,7 +50,7 @@
     font-size: 1.5em;
     padding-bottom: .5em;
     
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
         font-weight: 700;
         font-size: 1.15em;
         padding-bottom: .45em;
@@ -62,7 +62,7 @@
     line-height: 1.25em;
     padding: .2em 0em .2em .6em;
     
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
         font-size: .9em;
         padding: .2em .15em .2em .3em;
     }
@@ -72,5 +72,5 @@
     color: var(--magenta);
     font-weight: 700;
 
-    @media (max-width: 600px) {}
+    @media (max-width: 768px) {}
 }

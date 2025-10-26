@@ -1,7 +1,7 @@
 .section5 {
     padding: 4em 10em 0em;
 
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
         padding: 1.4em 1.5em;
     }
 }
@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
         flex-direction: column;
     }
     
@@ -19,7 +19,7 @@
     color: var(--magenta);
     font-size: 1.95em;
     font-weight: 700;
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
         font-size: 1.2em;
     }
 }
@@ -29,7 +29,7 @@
     color: var(--magenta);
     font-size: 1.6em;
     font-weight: 600;
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
         font-size: .75em;
         padding-top: .2em;
         font-weight: 500;
@@ -42,7 +42,7 @@
     justify-content: center;
     padding: 8em 0em 6em;
     flex-wrap: wrap;
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
         flex-direction: column;
         width: auto;
         padding: 3.5em 0em;
@@ -57,7 +57,7 @@
     padding-right: .6em;
     line-height: 1.1em;
     width: 10.55em;
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
         width: auto;
         padding-right: 6em;
         text-align: start;
@@ -70,7 +70,7 @@
     font-size: 1.3em;
     line-height: 1.35em;
     width: 21.5em;
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
         width: auto;
         font-size: .9em;
         padding-top: .5em;
@@ -82,7 +82,7 @@
 .end {
     display: flex;
     justify-content: space-between;
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
         /* justify-content: end; */
     }
 }
@@ -90,7 +90,7 @@
 .end>img {
     width: 11em;
     padding-bottom: 2.5em;
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
         /* display: none; */
         width: 5em;
         padding: 1em 0em;
@@ -109,7 +109,7 @@
     line-height: 1.15em;
     width: 8.5em;
     padding-right: .5em;
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
         width: auto;
         font-size: .75em;
     }
@@ -125,7 +125,7 @@
     height: 4.7em;
     cursor: pointer;
     padding-bottom: .25em;
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
         height: 3.7em;
     }
 }
@@ -135,7 +135,7 @@
     width: 3em;
     color: var(--magenta);
     font-size: .8em;
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
         width: 2.7em;
     }
 }

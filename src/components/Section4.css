@@ -2,7 +2,7 @@
     padding: 4em 10em 2em 10em;
     background-color: var(--magenta);
 
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
         padding: 1.4em 1.5em;
     }
 }
@@ -12,7 +12,7 @@
     font-size: 1.95em;
     font-weight: 700;
 
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
         font-size: 1.2em;
         padding-bottom: 2em;;
     }
@@ -23,7 +23,7 @@
     padding: 5em 7em;
     justify-content: space-between;
     flex-wrap: wrap;
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
         flex-direction: column;
         padding: 1em 0em;
     }
@@ -32,7 +32,7 @@
 .box {
     text-align: center;
     width: 19em;
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
         width: auto;
         padding-bottom: 2.5em;
     }
@@ -40,7 +40,7 @@
 
 .box>img {
     width: 16em;
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
         width: 14em;
     }
 }
@@ -50,7 +50,7 @@
     font-size: 1.45em;
     font-weight: 600;
     padding: .5em .5em .3em .5em;
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
         padding-top: .5em;
         font-size: 1.1em;
     }
@@ -61,7 +61,7 @@
     font-size: 1.25em;
     line-height: 1.2em;
     font-weight: 400;
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
         padding: 0em .4em;
         font-size: 1em;
         line-height: 1.3em;

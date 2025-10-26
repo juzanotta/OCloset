@@ -8,7 +8,7 @@ header {
     min-width: 82.7%;
 
   
-  @media (max-width: 600px) {
+  @media (max-width: 768px) {
     padding: .8em 1.4em;
     min-width: 88.5%;
   }
@@ -18,7 +18,7 @@ header>img {
   height: 1.5em;
   padding-right: 2em;
 
-  @media (max-width: 600px) {
+  @media (max-width: 768px) {
     height: 1em;
     padding-right: 1em;
   }
@@ -29,7 +29,7 @@ header>p {
   font-size: 1em;
   letter-spacing: .05em;
 
-  @media (max-width: 600px) {
+  @media (max-width: 768px) {
     font-size: .8em;
     font-weight: 500;
   }
