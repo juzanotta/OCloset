@@ -5,8 +5,8 @@ header {
   padding: 1.3em 10em;
   align-items: center;
     position: fixed;
-    min-width: 82.7%;
-
+    min-width: 83.2%;
+    
   
   @media (max-width: 768px) {
     padding: .8em 1.4em;
