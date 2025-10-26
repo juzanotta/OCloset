@@ -19,7 +19,7 @@
 
 .cards {
     display: flex;
-    padding: 4.5em 1em;
+    padding: 4.5em 10em;
     justify-content: space-between;
     flex-wrap: wrap;
 
@@ -63,7 +63,7 @@
     padding: .2em 0em .2em .6em;
     
     @media (max-width: 600px) {
-        font-size: .95em;
+        font-size: .9em;
         padding: .2em .15em .2em .3em;
     }
 }

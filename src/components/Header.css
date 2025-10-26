@@ -5,12 +5,12 @@ header {
   padding: 1.3em 10em;
   align-items: center;
     position: fixed;
-    width: 78.9%;
+    min-width: 82.7%;
 
   
   @media (max-width: 600px) {
     padding: .8em 1.4em;
-    width: 88.5%;
+    min-width: 88.5%;
   }
 }
 
@@ -26,7 +26,7 @@ header>img {
 
 header>p {
   color: var(--white);
-  font-size: .9em;
+  font-size: 1em;
   letter-spacing: .05em;
 
   @media (max-width: 600px) {

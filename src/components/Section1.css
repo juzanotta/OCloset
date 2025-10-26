@@ -13,7 +13,6 @@
 }
 
 
-
 .section1>img {
   height: 16em;
 
@@ -25,8 +24,6 @@
 .section1>div {
   padding-left: 1.5em;
   width: 32em;
-
-  @media (max-width: 600px) {}
 
   @media (max-width: 600px) {
     padding: 1.1em 1.4em 0em;
@@ -42,22 +39,23 @@
   padding-bottom: .15em;
   
   @media (max-width: 600px) {
-    font-size: .8em;
+    font-size: 1em;
     letter-spacing: .01em;
     padding-bottom: .2em;
+    
   }
 }
 
 .section1>div>h3 {
   color: var(--black);
-  font-size: 1.15em;
+  font-size: 1.2em;
   line-height: 1.2em;
   padding-bottom: 1em;
 
   @media (max-width: 600px) {
     line-height: 1.2em;
     font-weight: 400;
-    font-size: .9em;
+    font-size: .85em;
     padding: 0em .1em;
   }
 }
@@ -71,10 +69,7 @@
   padding: .4em 1.6em;
   border-radius: 8em;
   margin-left: 5em;
-
-  @media (max-width: 600px) {
-    margin-left: 0;
-  }
+  font-size: 1.05em;
 
   @media (max-width: 600px) {
     display: none;
