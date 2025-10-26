@@ -20,7 +20,7 @@
     font-size: 1.95em;
     font-weight: 700;
     @media (max-width: 600px) {
-        font-size: .9em;
+        font-size: 1.2em;
     }
 }
 
@@ -30,7 +30,9 @@
     font-size: 1.6em;
     font-weight: 600;
     @media (max-width: 600px) {
-        display: none;
+        font-size: .75em;
+        padding-top: .2em;
+        font-weight: 500;
     }
 }
 
@@ -41,7 +43,8 @@
     flex-wrap: wrap;
     @media (max-width: 600px) {
         flex-direction: column;
-        padding: 2em 0em;
+        width: auto;
+        padding: 3em 0em 3.5em;
     }
 }
 
@@ -54,9 +57,10 @@
     line-height: 1.1em;
     width: 10.55em;
     @media (max-width: 600px) {
-        width: 10.6em;
-        padding: 0em;
-        font-size: 1.2em;
+        width: auto;
+        padding-right: 6em;
+        text-align: start;
+        font-size: 1.05em;
     }
 }
 
@@ -66,15 +70,20 @@
     line-height: 1.35em;
     width: 21.5em;
     @media (max-width: 600px) {
-        width: 14.03em;
-        font-size: 1.05em;
-        padding-top: .5em;
+        width: auto;
+        font-size: .9em;
+        padding-top: .3em;
+        padding-left: 2em;
+        text-align: end;
     }
 }
 
 .end {
     display: flex;
     justify-content: space-between;
+    @media (max-width: 600px) {
+        justify-content: center;
+    }
 }
 
 .end>img {
@@ -99,6 +108,7 @@
     padding-right: .5em;
     @media (max-width: 600px) {
         width: auto;
+        font-size: .75em;
     }
 }
 
@@ -112,6 +122,9 @@
     height: 4.7em;
     cursor: pointer;
     padding-bottom: .25em;
+    @media (max-width: 600px) {
+        height: 3.7em;
+    }
 }
 
 .btn>p {
@@ -120,6 +133,6 @@
     color: var(--magenta);
     font-size: .8em;
     @media (max-width: 600px) {
-        width: auto;
+        width: 2.7em;
     }
 }
