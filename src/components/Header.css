@@ -14,7 +14,7 @@ header {
   }
 }
 
-header>img {
+header>a>img {
   height: 1.5em;
   padding-right: 2em;
 
