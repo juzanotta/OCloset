@@ -11,14 +11,6 @@ function App() {
 
   return (
     <>
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-KMM2RWRCDH"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments)}
-        gtag('js', new Date());
-
-        gtag('config', 'G-KMM2RWRCDH');
-      </script>
       <Header />
       <Section1 />
       <Section2 />
