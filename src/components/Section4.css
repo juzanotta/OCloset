@@ -31,7 +31,7 @@
 
 .box {
     text-align: center;
-    width: 17em;
+    width: 16.5em;
     padding-bottom: 1em;
     @media (max-width: 768px) {
         width: auto;
@@ -50,7 +50,7 @@
     color: var(--white);
     font-size: 1.35em;
     font-weight: 600;
-    padding: .4em .5em .1em .5em;
+    padding: .4em .5em .3em .5em;
     @media (max-width: 768px) {
         padding-top: .5em;
         font-size: 1.1em;
@@ -59,7 +59,7 @@
 
 .box>p {
     color: var(--white);
-    font-size: 1.11em;
+    font-size: 1.07em;
     line-height: 1.1em;
     font-weight: 400;
     @media (max-width: 768px) {
