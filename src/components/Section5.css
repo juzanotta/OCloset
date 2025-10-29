@@ -45,7 +45,7 @@
     @media (max-width: 768px) {
         flex-direction: column;
         width: auto;
-        padding: 5em 0em 4.5em;
+        padding: 5em 0em 3.7em;
     }
 }
 
@@ -83,7 +83,7 @@
     display: flex;
     justify-content: space-between;
     @media (max-width: 768px) {
-        /* justify-content: end; */
+        justify-content: center;
     }
 }
 
@@ -91,9 +91,9 @@
     width: 10em;
     padding-bottom: 2.5em;
     @media (max-width: 768px) {
-        /* display: none; */
-        width: 5em;
-        padding: 1em 0em;
+        display: none;
+        /* width: 5em;
+        padding: 1em 0em; */
     }
 }
 
@@ -137,5 +137,25 @@
     font-size: .8em;
     @media (max-width: 768px) {
         width: 2.7em;
+    }
+}
+
+.cta_form {
+    text-decoration: none;
+    background-color: var(--magenta);
+    color: var(--white);
+    font-size: 1.1em;
+    font-weight: 600;
+    border-radius: 8em;
+    padding: .7em 1.6em;
+    margin-top: 1em;
+    width: 13.5em;
+    text-align: center;
+    line-height: 1.1em;
+    @media (max-width: 768px) {
+        font-size: .9em;
+        margin-bottom: 1.5em;
+        margin-top: 0em;
+
     }
 }

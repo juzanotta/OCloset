@@ -20,13 +20,13 @@ export default function Section5() {
                 <img src="./s5m1.png" alt="" />
 
                 <div class="zap">
-                    <h2>ficou com <br /> alguma dúvida?<br />
+                    {/* <h2>ficou com <br /> alguma dúvida?<br />
                         manda pra gente!</h2>
                     <a href="https://wa.me/5553981311887" class="btn" >
                         <img src="./s5m2.png" alt="" />
                         <p>clica aqui :)</p>
-                    </a>
-                    
+                    </a> */}
+                    <a href="https://forms.gle/if7wUvb9k3kkWMMD8" class="cta_form">clica aqui e conta pra gente o que achou da ideia!</a>
                 </div>
             </div>
         </section>
