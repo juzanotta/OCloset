@@ -1,6 +1,6 @@
 .section1 {
   display: flex;
-  padding: 17em 10em 13em;
+  padding: 14em 10em 10em;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
@@ -14,7 +14,7 @@
 
 
 .section1>img {
-  height: 16em;
+  height: 15em;
 
   @media (max-width: 768px) {
     height: 9em;
@@ -23,7 +23,7 @@
 
 .section1>div {
   padding-left: 1.5em;
-  width: 32em;
+  width: 31em;
 
   @media (max-width: 768px) {
     padding: 1.1em 1.4em 0em;
@@ -34,7 +34,7 @@
 .section1>div>h1 {
   font-weight: 800;
   color: var(--magenta);
-  font-size: 2.4em;
+  font-size: 2.2em;
   line-height: 1em;
   padding-bottom: .15em;
   
@@ -48,9 +48,9 @@
 
 .section1>div>h3 {
   color: var(--black);
-  font-size: 1.2em;
+  font-size: 1.1em;
   line-height: 1.2em;
-  padding-bottom: 1em;
+  padding-bottom: 1.3em;
 
   @media (max-width: 768px) {
     line-height: 1.2em;
@@ -69,7 +69,7 @@
   padding: .4em 1.6em;
   border-radius: 8em;
   margin-left: 5em;
-  font-size: 1.05em;
+  font-size: 1em;
 
   @media (max-width: 768px) {
     display: none;

@@ -2,20 +2,19 @@ header {
   display: flex;
   justify-content: space-between;
   background-color: var(--magenta);
-  padding: 1.3em 10em;
+  padding: 1em 8em;
   align-items: center;
-    position: fixed;
-    min-width: 83.2%;
+  position: sticky;
+  top: 0;
     
   
   @media (max-width: 768px) {
     padding: .8em 1.4em;
-    min-width: 88.5%;
   }
 }
 
 header>a>img {
-  height: 1.5em;
+  height: 1.4em;
   padding-right: 2em;
 
   @media (max-width: 768px) {
@@ -26,7 +25,7 @@ header>a>img {
 
 header>p {
   color: var(--white);
-  font-size: 1em;
+  font-size: .95em;
   letter-spacing: .05em;
 
   @media (max-width: 768px) {
