@@ -26,7 +26,10 @@ export default function Section5() {
                         <img src="./s5m2.png" alt="" />
                         <p>clica aqui :)</p>
                     </a> */}
+                    <div class="cta">
+                        <img src="./arrow.png" alt="" />
                     <a href="https://forms.gle/if7wUvb9k3kkWMMD8" class="cta_form">clica aqui e conta pra gente o que achou da ideia!</a>
+                    </div>
                 </div>
             </div>
         </section>
