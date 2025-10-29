@@ -6,10 +6,19 @@ import Section3 from './components/Section3'
 import Section4 from './components/Section4'
 import Section5 from './components/Section5'
 
+
 function App() {
 
   return (
     <>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-KMM2RWRCDH"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)}
+        gtag('js', new Date());
+
+        gtag('config', 'G-KMM2RWRCDH');
+      </script>
       <Header />
       <Section1 />
       <Section2 />
